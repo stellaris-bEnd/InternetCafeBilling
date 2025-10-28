@@ -1,0 +1,28 @@
+# Folder dependensi (Wajib)
+node_modules/
+/client-mobile/node_modules
+/server-api/vendor
+
+# File Rahasia (Sangat Penting!)
+.env
+/server-api/.env
+/client-mobile/.env
+
+# File build (Wajib)
+/server-api/server.exe
+*.exe
+
+# Folder cache dan log Expo
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig
+npm-debug.log
+yarn-error.log
+
+# Cache build OS
+.DS_Store
+Thumbs.db
